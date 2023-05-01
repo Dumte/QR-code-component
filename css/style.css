@@ -64,13 +64,14 @@ main article img {
   border-radius: 0.5rem;
   margin: 0 auto;
 }
-/* footer {
+footer {
+  display:none;
   font-size: 0.688rem;
   text-align: center;
 }
 footer a {
   color: hsl(228, 45%, 44%);
-} */
+}
 
 @media only screen (max-width: 768px){
   body {
@@ -82,6 +83,9 @@ footer a {
   main {
     display: flex;
     justify-content: center;
-  align-items: center;
+    align-items: center;
   }
+  footer {
+    display: flex;
+  } 
 }
